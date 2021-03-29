@@ -204,3 +204,53 @@ p{
 .menu li:hover{
     transform: translateX(10px);
 }
+
+.babkadrinkcoffee{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-left: 2px;
+    border: 2px solid grey;
+    background: url(https://i.ytimg.com/vi/9rjzx9GsN-s/maxresdefault.jpg) no-repeat center center / cover;
+    filter: brightness(75%);
+}
+
+.tdrink{
+    border-collapse: collapse;
+    width: 99%;
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border: 2px solid grey;
+}
+.tdrink thead tr{
+    font-size: 21.5px;
+    text-align: center;
+    border-bottom: 2px solid grey;
+}
+
+.tdrink thead tr th{
+    padding: 10px;
+    border-left: 2px solid grey;
+}
+
+.tdrink tbody tr{
+    font-size: 21.5px;
+    text-align: center;
+    border-bottom: 2px solid grey;
+}
+.tdrink tbody tr td{
+    padding: 10px;
+    border-left: 2px solid grey;
+}
+
+.like{
+    height: 100%;
+    background: url(https://pngimg.com/uploads/like/like_PNG90.png)no-repeat center center / contain;
+}
+.dislike{
+    height: 100%;
+    background: url(http://pngimg.com/uploads/poop/small/poop_PNG21.png)no-repeat center center / contain;
+}
